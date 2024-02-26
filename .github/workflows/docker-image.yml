@@ -17,6 +17,6 @@ jobs:
     - name: Build the Docker image
       run: docker build . --file Dockerfile --tag kamblesuraj432/golangproject
     - name: Docker login
-      run: docker login -u kamblesuraj432 -p Suraj@123
+      run: docker login
     - name: Docker image push to dockerhub
       run: docker push kamblesuraj432/golangproject
