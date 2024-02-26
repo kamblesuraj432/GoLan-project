@@ -8,7 +8,7 @@ import (
 
 func main() {
         hostname, _ := os.Hostname()
-        response := fmt.Sprintf("hello, my hostname is %v\n", hostname)
+        response := fmt.Sprintf("hello, my hostname ip is %v\n", hostname)
         fmt.Printf(response)
 
         http.HandleFunc("/", func(w http.ResponseWriter, r *http.Request) {
