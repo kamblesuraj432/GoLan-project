@@ -10,7 +10,6 @@ jobs:
 
   build:
 
-    runs-on: ubuntu-latest
     runs-on: [self-hosted, EKS-Runner-cicd]
 
     steps:
